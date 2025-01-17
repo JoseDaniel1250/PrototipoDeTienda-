@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21/STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">21/STORE</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label> 
+            <nav class="navbar">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#">Novedades</a>
+                        <ul class="submenu">
+                            <li><a href="#">Promocion del dia</a></li>
+                            <li><a href="#">Tendencias</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Descuentos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ropa</a></li>
+                        <li><a href="#">Zapatos</a></li>
+                        <li><a href="#">Accesorios</a></li>  
+
+                    </ul>
+                </li>
+                    <li class="has-submenu">
+                        <a href="#">Hombre</a>
+                        <ul class="submenu">
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Zapatos</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">Mujer</a>
+                        <ul class="submenu">
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Zapatos</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Articulo</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>  <!btn-2 es para que aparezca en blanco y no como boton>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </div>
+
+         <div class="header-content">
+            <div class="header-img">
+                <img src="images/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Nuevos Lanzamientos</h1>
+                <p>estrena las mejores prendas</p>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+         </div>
+
+     </header>
+
+     <section class="ofert container">
+        <div class="ofert-img">
+            <img src="images/f1.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>accesorios</h3>
+            <a href="#" class="btn-2">informacion</a>
+        </div>
+        <div class="ofert-img">
+            <img src="images/f2.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>NOVEDADES</h3>
+            <a href="#" class="btn-2">informacion</a>
+        </div>
+        <div class="ofert-img">
+            <img src="images/f3.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>OFERTAS</h3>
+            <a href="#" class="btn-2">informacion</a>
+        </div>
+     </section>
+
+     <main class="products container" id="lista-1">
+        <h2>Productos</h2>
+        <div class="product-content">
+            <div class="product">
+                <img src="images/1.png" alt="">
+                <div class="product-txt">
+                    <h3>Sudadera Negra</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$210.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/2.png" alt="">
+                <div class="product-txt">
+                    <h3>Camiseta Oversize</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$75.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/3.png" alt="">
+                <div class="product-txt">
+                    <h3>Oversize Mujer</h3>
+                    <p>Calidad AAA</p>
+                    <p class="precio">$40.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/4.png" alt="">
+                <div class="product-txt">
+                    <h3>Oversize Hombre</h3>
+                    <p>Calidad AAA</p>
+                    <p class="precio">$50.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/5.png" alt="">
+                <div class="product-txt">
+                    <h3>Sudadera Palm-Angels</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$230.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/6.png" alt="">
+                <div class="product-txt">
+                    <h3>Jersey Lakers</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$120.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+     </main>
+
+     <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+     </section>
+
+     <section class="blog container">
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>ZAPATOS</h3>
+            <p>
+                Eleva tu estilo con cada paso. Descubre nuestra colección de zapatos de lujo diseñados para destacar en cualquier ocasión.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>GORRAS</h3>
+            <p>
+                Completa tu look con un toque exclusivo. Encuentra gorras únicas que combinan estilo urbano y sofisticación.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>RELOJES</h3>
+            <p>
+                El tiempo nunca se vio tan elegante. Explora relojes de lujo que son más que accesorios: son declaraciones de estilo.
+            </p>
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div class="footer-content container">
+            
+            <div class="link">
+                <h3>EVENTOS 21/STORE</h3>
+                <ul>
+                    <li><a href="#">Bonos De Descuento</a></li>
+                    <li><a href="#">Nuevos Lanzamientos</a></li>
+                    <li><a href="#">Black Friday</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>OBTENER AYUDA</h3>
+                <ul>
+                    <li><a href="#">Servicio Al Cliente</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Terminos & Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>ACERCA DE 21/STORE</h3>
+                <ul>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Inversionistas</a></li>
+                    <li><a href="#">Patrocinadores</a></li>
+                    <li><a href="#">Sostenibilidad</a></li>
+                </ul>
+            </div>
+        </div>
+     </footer>
+
+     <script src="scrip.js"></script>
+    
+</body>
+</html
