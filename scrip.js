@@ -3,6 +3,19 @@ const elementos1 = document.getElementById('lista-1');
 const lista = document.querySelector('#lista-carrito tbody');
 const vaciarcarritoBtn = document.getElementById('vaciar-carrito');
 
+/*Desde aqui es para que el boton nos redireccione a Youtube*/
+document.addEventListener('DOMContentLoaded', () => {
+    // Selecciona el enlace dentro de .header-txt
+    const youtubeLink = document.querySelector('.header-txt a');
+    
+    // Añade el evento de clic
+    youtubeLink.addEventListener('click', (event) => {
+        event.preventDefault(); // Previene el comportamiento predeterminado del enlace
+        window.location.href = 'https://www.youtube.com/watch?v=5CKtm7icp3Q&ab_channel=KrisR.'; // Redirige a YouTube
+    });
+});
+/*Aqui finaliza*/
+
 cargarEventListeners();
 
 function cargarEventListeners() {
